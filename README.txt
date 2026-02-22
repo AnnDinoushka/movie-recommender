@@ -32,25 +32,6 @@ HOW TO RUN
 4. Run ALL cells from top to bottom:
      Kernel → Restart & Run All
 
-------------------------------------------------------------
-EXPECTED OUTPUT
-------------------------------------------------------------
-The notebook will produce:
-
-  Console output:
-    - Dataset summary (users, movies, ratings, sparsity)
-    - SVD training confirmation
-    - Full evaluation table (RMSE, MAE, Precision@10, Recall@10, NDCG@10)
-    - Top-10 recommendations for Users 1, 50, and 200
-    - Final summary block
-
-  Saved image files:
-    - eda_plots.png               → 4-panel EDA visualisation
-    - evaluation_results.png      → Bar charts for Top-N metrics
-    - rating_prediction_results.png → RMSE/MAE comparison
-    - user_recommendations.png    → Recommendations for 3 users
-
-  Typical runtime: 2–4 minutes (SVD training + evaluation loop)
 
 ------------------------------------------------------------
 ALGORITHMS IMPLEMENTED
